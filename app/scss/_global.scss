@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+display: inline-block;
+text-decoration: none;
+}
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    color: #1F3F68;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container{
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.link{
+    background: #5A98D0;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+}
+
